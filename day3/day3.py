@@ -28,7 +28,7 @@ def Day3():
         right_pos = inputdict[i]["left_pos"] + inputdict[i]["width"]
         for j in range(top_pos, bottom_pos):
             for k in range(left_pos, right_pos):
-                fabric[j][k] += 1]
+                fabric[j][k] += 1
     for i in range(1000):
         for j in range(1000):
             if(fabric[i][j]) > 1:
